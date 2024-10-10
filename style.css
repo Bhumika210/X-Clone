@@ -1,0 +1,215 @@
+body{
+    background-color: #1da0f2cc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 180px;
+}
+
+.conatiner{
+    background-color: white;
+    height: 260px;
+    width: 600px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.tweet_box{
+    position: relative;
+}
+
+.inputBox{
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    width: 580px;
+    text-align: left; 
+    vertical-align: top; 
+    resize: none;
+}
+
+.audienceBtn{
+    border: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: #1da1f2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.audienceBtn:hover {
+    background-color: #1da0f238;
+    border-radius: 20px;
+}
+
+.globe_svgtext{
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1da1f2;
+    height: 20px;
+}
+
+.globeSVG{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.icon__text{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 0;
+    padding-left: 0;
+    color: #1da1f2;
+}
+
+#showBox2{
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: -50px;
+    z-index: 99999999999999999999999;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 14px;
+    box-shadow: 0px 0px 22px 2px rgb(118, 118, 118);
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.ele1 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+
+.ele2 {
+    font-size: 13px;
+    font-weight: 100;
+    opacity: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown_options {
+    font-size: 18px;
+    color: #1da1f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.drowpdownText{
+    margin-left: 5px;
+}
+
+svg{
+    fill: #1da1f2;
+    height: 20px;
+    width:20px;
+}
+
+.dropdown_options .tick {
+    visibility: hidden;
+}
+
+.dropdown_options.selected .tick {
+    visibility: visible;
+    
+}
+
+.bottom_icons{
+    display: inline-flex;
+    margin-left: 0;
+    padding:0;
+}
+
+.bottom_icon_list:hover{
+    background-color: #1da0f237;
+    transition: 0.3s linear;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.bottom_icon_list{
+    list-style-type: none;
+    margin-right: 16px;
+    padding: 4px;
+}
+
+.tweet_button{
+    border: none;
+    border-radius: 50px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 7px;
+}
+
+.bottom-line{
+    display: inline-flex;
+    align-items: center;
+}
+
+.char_count{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 230px;
+    margin-right: 5px;
+    padding-right: 15px;
+    border-right: 1px solid black; 
+}
+
+.content{
+    margin-top: 0px;
+}
+
+#pop_div{
+    border-radius: 30px;
+    border: none;
+    margin-top: 500px;
+}
+
+.pop_text{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1da1f2;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.close_button{
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1da1f2;
+    padding: 5px;
+    margin-left: 62px;
+    margin-bottom: 10px;
+}
+
+.tick{
+    margin-left: 10px;
+}
